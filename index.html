@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <link href="style.css" rel="stylesheet">
+ </head>
+ <body>
+    <div class ="main-header">
+        <button class="hamburger" onclick="addCode()">
+       
+            <span></span> 
+            <span></span> 
+            <span></span> 
+        
+    </button >
+
+    <div class="navlinks"> 
+        <a href='#'>Products   </a>
+        <a href='#'>About</a>
+        <a href='#'>My Account</a>
+        <a href='#'>Cart</a>
+        
+        </div>
+ 
+        <h2 class="headertitle "> Images OP </h2>
+      
+    </div>
+
+    <h5 class="pagetitle "> Images OP / House Plants / Bonsai </h5>
+
+    <div id="myside" class='side-drawer' >
+      <a href='#'>Products   </a>
+      <a href='#'>About</a>
+      <a href='#'>My Account</a>
+      <a href='#'>Cart</a>
+    </div>
+    
+    <div id="mysiderest" class='side-drawerrest' onclick="minusCode()">
+    </div>
+
+    <div id="add_to_me">
+    </div>
+    <div class="grid-container">
+        <div class="grid-item item1">
+          <div class="grid-container2">
+          <div class="grid-item2 item21">
+            <img class="img" src="assets/p4.jpg" alt="Flowers in Chania"> 
+          </div>
+          <div class="grid-item2 item22">
+            <img class="img2" src="assets/p42.jpg" alt="Flowers in Chania"> 
+          </div>
+          <div class="grid-item2 item23"><img class="img2" src="assets/p41.jpg" alt="Flowers in Chania"></div>  
+          <div class="grid-item2 item24">
+            <img class="img2" src="assets/p43.jpg" alt="Flowers in Chania">
+          </div>
+          
+          </div>
+        </div>
+        <div class="grid-item item2">
+         <h4 style="font-family:sans-serif; color: rgb(90, 90, 90);"> Bonsai tree </h4>
+         <h4 style="font-family:sans-serif;color: rgb(90, 90, 90);"> $19.99 </h4>
+         <hr>
+         <p class="second" style="font-family:monospace;"> 
+          A paragraph is a series of related 
+           sentences developing a central idea, 
+           called the topic. Try to think about
+            paragraphs in terms of thematic unity: 
+            a paragraph is a sentence or a group of sentences 
+            that supports one central, unified idea. Paragraphs 
+            add one idea at a time to your broader argument.
+          </p>
+          <button class="button" > Add To Cart</button>
+        </div>
+      </div>
+
+<hr>
+
+<div class= "row"> 
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <div class="scroll">
+      <div class="card" style="text-align: center;">
+        <img class="img3" src="assets/p1.jpg" alt="Flowers in Chania">
+      </div>
+      <div class="card" style="text-align: center;">
+        <img class="img3" src="assets/p2.jpg" alt="Flowers in Chania">
+      </div>
+      <div class="card" style="text-align: center;">
+        <img class="img3" src="assets/p3.jpg" alt="Flowers in Chania">
+      </div>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+        </div>
+
+
+
+        <div class= "row"> 
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <div class="scroll">
+          <div class="card" style="text-align: center;">
+            <img class="img3" src="assets/p41.jpg" alt="Flowers in Chania">
+          </div>
+          <div class="card" style="text-align: center;">
+            <img class="img3" src="assets/p42.jpg" alt="Flowers in Chania">
+          </div>
+          <div class="card" style="text-align: center;">
+            <img class="img3" src="assets/p43.jpg" alt="Flowers in Chania">
+          </div>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+                </div>
+
+
+
+                <div class="row2">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <div class="scroll">
+                      <div class="card" style="text-align: center;">
+                        <img class="img3" src="assets/p1.jpg" alt="Flowers in Chania">
+                      </div>
+                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                        <div class="row2">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                         <div class="scroll">
+                          <div class="card" style="text-align: center;">
+                            <img class="img3" src="assets/p2.jpg" alt="Flowers in Chania">
+                          </div>  
+                           <a class="next" onclick="plusSlides(1)">&#10095;</a>                       
+                        </div>  
+                    </div>
+
+                        <div class="row2">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                           <div class="scroll">
+                            <div class="card" style="text-align: center;">
+                              <img class="img3" src="assets/p3.jpg" alt="Flowers in Chania">
+                            </div>
+                           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    </div>
+                           
+                </div>
+                <hr>
+                <h4 style="text-align: center; color:rgb(179, 179, 179)"> Copyrights since 2007 </h4>
+
+    <script>
+        function addCode() {
+          document.getElementById("myside").style.width = "70%"
+          document.getElementById("mysiderest").style.width = "30%"     
+        }
+        function minusCode() {
+          document.getElementById("myside").style.width = "0"
+          document.getElementById("mysiderest").style.width = "0"
+              
+        }
+    </script>
+        <script>
+            
+    var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            function currentSlide(n) {
+               showSlides(slideIndex = n);
+            }
+    
+            function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("row");
+      var slides2 = document.getElementsByClassName("row2");
+
+      
+      var x = window.matchMedia("(min-width: 768px)")
+          // myFunction(x) // Call listener function at run time
+            x.addListener(showSlides) // Attach listener function on state changes
+            if (x.matches) { 
+                if (n > slides.length) {
+          slideIndex = 1
+        }    
+      if (n < 1) {
+          slideIndex = slides.length
+        }
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < slides2.length; i++) {
+          slides2[i].style.display = "none";  
+      }
+                slides[slideIndex-1].style.display = "block"; 
+            }
+            else{
+                
+        if (n > slides2.length) {
+          slideIndex = 1
+        }    
+      if (n < 1) {
+          slideIndex = slides2.length
+        }
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < slides2.length; i++) {
+          slides2[i].style.display = "none";  
+      }
+                slides2[slideIndex-1].style.display = "block"; 
+            }
+      
+    } 
+
+            
+          
+            </script>
+ </body>
+ </html>
+ 
