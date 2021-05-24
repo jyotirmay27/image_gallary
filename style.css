@@ -235,6 +235,10 @@ grid-row: 1;
     color:white;
     
   }
+  .button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(68, 68, 68);
+  }
   .second{
     
     font-size:medium;
