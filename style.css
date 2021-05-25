@@ -104,7 +104,7 @@ body {
     margin:2%;
   display: grid;
   
-  grid-template-rows: 12rem 12rem 15rem;
+  grid-template-rows: 12rem 12rem 20rem;
   grid-gap: 10px;
   background-color: #ffffff;
  
